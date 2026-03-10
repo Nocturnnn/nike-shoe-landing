@@ -17,7 +17,22 @@ Experiência visual focada em showcase de produto utilizando WebGL.
 ## Objetivo
 Explorar motion design, interação com scroll e visualização 3D para páginas de produto premium.
 
-## Como rodar
+## Como rodar o projeto
+
+1. Clone o repositório
+
+git clone https://github.com/seuusuario/nome-do-projeto.git
+
+2. Entre na pasta do projeto
+
+cd nome-do-projeto
+
+3. Instale as dependências
 
 npm install
+
+4. Inicie o servidor de desenvolvimento
+
 npm run dev
+
+5. Abra com o link fornecido ex: http://localhost:5173/
