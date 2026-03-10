@@ -36,3 +36,5 @@ npm install
 npm run dev
 
 5. Abra com o link fornecido ex: http://localhost:5173/
+
+Créditos: https://sketchfab.com/ar41k
