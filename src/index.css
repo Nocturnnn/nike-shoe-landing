@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Orbitron", Inter, Arial, sans-serif;
+  background: #050505;
+  color: white;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+  background:
+    radial-gradient(
+      circle at 50% 48%,
+      rgba(72, 140, 255, 0.2),
+      transparent 34%
+    ),
+    radial-gradient(
+      circle at 50% 50%,
+      rgba(72, 140, 255, 0.1),
+      transparent 48%
+    ),
+    radial-gradient(
+      circle at 20% 20%,
+      rgba(120, 180, 255, 0.08),
+      transparent 18%
+    ),
+    linear-gradient(180deg, #050505 0%, #090b10 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.02)),
+    radial-gradient(circle at center, transparent 60%, rgba(0, 0, 0, 0.18));
+  mix-blend-mode: soft-light;
+}
+
+.display-font {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.04em;
+}
+
+.tech-font {
+  font-family: "Orbitron", sans-serif;
+}
+
+.text-glow {
+  text-shadow:
+    0 0 18px rgba(90, 155, 255, 0.22),
+    0 0 34px rgba(90, 155, 255, 0.14);
+}
+
+.panel-blur {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.grid-overlay {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 38px 38px;
+}
+
+.ui-line {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.16),
+    transparent
+  );
+}
+
+.ui-border {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.nike-bg-word {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.05);
+  text-shadow: 0 0 35px rgba(90, 155, 255, 0.08);
+}
